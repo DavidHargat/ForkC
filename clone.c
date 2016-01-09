@@ -7,8 +7,6 @@
 
 #define STACK_SIZE (1024 * 1024)
 
-// Error checking excluded for clarify
-
 void err(char *msg){
 	printf("error: %s\n", msg);
 	exit(EXIT_FAILURE);
