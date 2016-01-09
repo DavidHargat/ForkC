@@ -1,19 +1,22 @@
-# ForkC
+# cthreads
 
 
-A multithreading experiment for educational purposes.
+Multithreading experiments  in C for educational purposes.
 
 
 ## clone
 
 
-`git clone http://github.com/DavidHargat/ForkC`
+`git clone http://github.com/DavidHargat/cthreads`
 
 
 ## build/run
 
 
-`gcc main.c -o forkc`
+`gcc clone.c -o clone`
+`./clone`
 
 
-`./forkc`
+`gcc fork.c -o fork`
+`./fork`
+
