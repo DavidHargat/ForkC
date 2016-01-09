@@ -13,10 +13,13 @@ Multithreading experiments  in C for educational purposes.
 ## build/run
 
 
-`gcc clone.c -o clone`
-`./clone`
+```
+gcc clone.c -o clone
+./clone
+```
 
 
-`gcc fork.c -o fork`
-`./fork`
-
+```
+gcc fork.c -o fork
+./fork
+```
